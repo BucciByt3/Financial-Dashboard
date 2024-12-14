@@ -227,17 +227,23 @@ PORT=5000
 
 ### 8. Running the Application
 
-1. Make scripts executable:
+1. Update the start.sh:
+```bash
+# Change "YOUR_PATH_TO_THE_FINANCIAL_DASHBOARD" to the correct Path
+BASE_DIR="YOUR_PATH_TO_THE_FINANCIAL_DASHBOARD"
+```
+
+2. Make scripts executable:
 ```bash
 chmod +x start.sh stop.sh
 ```
 
-2. Start the application:
+3. Start the application:
 ```bash
 ./start.sh
 ```
 
-3. Stop the application:
+4. Stop the application:
 ```bash
 ./stop.sh
 ```
